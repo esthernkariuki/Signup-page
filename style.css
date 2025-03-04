@@ -65,7 +65,7 @@
     justify-content: center;
     height: 5cm;
     gap: 90px;
-    background-color:white;
+    
             
           
           }
@@ -75,15 +75,18 @@
     #facebook{
       height: 25px;
       width: 40px;
+      background-color: white;
       
     }
     #google{
-      height:30px;
-      width: 35px;
+      height:25px;
+      width: 25px; 
+      background-color: white;
      }
     #apple{
       height: 25px;
       width:40px;
+      background-color:white;
     }
     
     .container{
