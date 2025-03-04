@@ -1,0 +1,135 @@
+
+#submit_button{
+        margin: 0 auto;
+        border: solid 1px grey;
+        background-color:purple;
+        cursor: pointer;
+        width: 75%;
+        padding: 5px;
+        color: white;
+        padding-right:20 px ;
+        
+      }
+.right{ 
+  display: left;
+  height: max-content;
+  width: 850px;
+  border-left: solid 2px rgb(182, 116, 182);
+  font-size: large;
+  padding-left: 20px;}
+  
+    
+#form{
+    border-left: 10px;
+    display: flex; 
+    position: absolute;
+    float: left;
+    padding:10px 0 0 300px;
+    font-family: sans-serif;
+    width: 100%;
+}
+.hr-lines{
+    position: relative;
+    max-width: 350px;
+    margin: 90px auto;
+    text-align: center;
+    padding: 0%;
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 1px;
+    width: 100px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 100px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;}
+        
+          
+          
+.icons {
+    display: block flex;
+    display: flex;
+    justify-content: center;
+    height: 5cm;
+    gap: 90px;
+            
+          
+          }
+    a{
+      color: rgb(211, 61, 211);
+    }
+    #facebook{
+      height: 25px;
+      width: 40px;
+      
+    }
+    #google{
+      height:30px;
+      width: 35px;
+     }
+    #apple{
+      height: 25px;
+      width:40px;
+    }
+    
+    .container{
+      display: inline-flex;
+      background-color: rgb(231, 222, 233);
+      padding: 40px;
+      border: 1px black;
+      width: 1200px;
+      height: 900px; 
+      margin: 30px 180px 300px 200px;
+      text-decoration-color: rgb(231, 131, 231);
+      box-shadow: 10px 10px 10px 10px grey;
+    }
+    .body{
+      margin: 100px 100px 100px 100px;
+      padding: 30px;
+
+    }
+    .input_group{
+      display:  flex gap 40px;
+      display: inline-flex;
+    
+    }
+
+    fieldset {
+    gap: 20px;
+
+
+    }
+    input{
+      width: 75%;
+      font-size: large;
+  
+    }
+    .inline_label{
+      border: none;
+      display: flex;
+      flex-direction: row;
+    }
+    h1{
+      color: rgb(156, 60, 156);
+      font-size: 50px;;
+      text-align: left;
+      font-weight: bold; 
+      padding-left: 60px;
+    }
+    .left{
+      padding: 20px;
+      height: 90px;
+    }
